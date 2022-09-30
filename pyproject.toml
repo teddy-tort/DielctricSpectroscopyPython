@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "dielepy"
+version = "1.0"
+description = "Provides tools for dielectric spectroscopy analysis"
+authors = [{ name = "Teddy Tortorici", email = "etc.tortorici@gmail.com" }]
+license = { file = "LICENSE" }
+classifiers = [
+	"License :: GNU GPL",
+	"Programming Language :: Python",
+	"Programming Language :: Python :: 3",
+]
+keywords = ["dielectric", "spectroscopy", "capacitor", "interdigital"]
+
+[project.urls]
+Homepage = "https://github.com/teddy-tort/DielctricSpectroscopyPython"
